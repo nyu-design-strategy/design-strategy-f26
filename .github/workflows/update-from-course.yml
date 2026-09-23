@@ -1,0 +1,68 @@
+# "Update from course" — pulls the latest course-owned files into a team repo
+# and opens a pull request. Students run it from the Actions tab; it also runs
+# every Monday. It never touches student folders.
+#
+# Setup (once, as org admin): Organization Settings → Actions → General →
+# Workflow permissions → enable "Allow GitHub Actions to create and approve
+# pull requests".
+#
+# Note: GitHub does not let this workflow modify files in .github/workflows,
+# so this file itself can't be updated by the action. Get it right before launch.
+
+name: Update from course
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 13 * * 1" # Mondays 13:00 UTC (9am New York during daylight time)
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  COURSE_REPO: nyu-design-strategy/design-strategy-f26 # <- change to your upstream repo
+
+jobs:
+  update:
+    # Don't run in the course repo itself, only in team repos made from it.
+    if: github.repository != 'nyu-design-strategy/design-strategy-f26'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the team repo
+        uses: actions/checkout@v4
+
+      - name: Check out the course repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.COURSE_REPO }}
+          path: .course-upstream
+
+      - name: Copy course-owned files
+        run: |
+          set -euo pipefail
+          while IFS= read -r line || [ -n "$line" ]; do
+            p="${line%%#*}"                            # strip comments
+            p="$(echo "$p" | xargs)"                   # trim whitespace
+            [ -z "$p" ] && continue
+            case "$p" in .github/workflows*) continue ;; esac
+            if [ -e ".course-upstream/$p" ]; then
+              rm -rf "$p"
+              mkdir -p "$(dirname "$p")"
+              cp -R ".course-upstream/$p" "$p"
+            fi
+          done < .course-upstream/course/managed-paths.txt
+          rm -rf .course-upstream
+
+      - name: Open a pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: course-update
+          delete-branch: true
+          commit-message: "Update from course"
+          title: "Update from course"
+          body: |
+            New or updated skills, templates, or instructions from the course repo.
+            See `course/CHANGELOG.md` for what changed.
+
+            This only touches course-owned files. Your work is not affected — just click **Merge**.

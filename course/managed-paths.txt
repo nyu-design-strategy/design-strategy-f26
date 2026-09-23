@@ -1,0 +1,17 @@
+# Paths the course owns. "Update from course" replaces exactly these in team repos.
+#
+# Rules:
+#   - NEVER list a folder students write in. For phase folders, list only the README.
+#   - .github/workflows can't be updated by the action (GitHub blocks it).
+#   - The action reads this file from the course repo, so adding a line here
+#     reaches every team on their next update.
+
+README.md
+AGENTS.md
+CLAUDE.md
+.agents/skills
+.claude/skills
+course
+
+00-opportunity-hypothesis/README.md
+# 01-differentiation-deep-dive/README.md   <- uncomment when that phase launches
