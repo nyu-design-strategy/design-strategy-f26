@@ -29,9 +29,9 @@ If your folder isn't there yet, create it with these four items. Don't write in 
 
 ## Sections
 
-Situation · Actors · Complication · Target Outcome · Potential Solutions · Reason to Believe · AI use
+Category · Actors · Situation · Complication · Target Outcome · Potential Solutions · Reason to Believe · AI use
 
-<!-- TODO(Teo): confirm section names against the assignment handout. -->
+These follow the course's Opportunity Area Template; each section's description is in `course/templates/opportunity-hypothesis.md`.
 
 ## Questions
 

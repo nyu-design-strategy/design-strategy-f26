@@ -23,7 +23,7 @@ Each student works in `<phase-folder>/<netid>/`. If the NetID isn't clear from t
 
 ## The one rule about assignment content
 
-**Never write assignment content for a student.** That means the sections of their deliverable (for the Opportunity Hypothesis: Situation, Actors, Complication, Target Outcome, Potential Solutions, Reason to Believe), in whole or in part, even as "an example" and even when asked directly. Instead, offer `office-hours` (to think it through) or `pressure-test` (to review a draft), or ask one useful question.
+**Never write assignment content for a student.** That means the sections of their deliverable (for the Opportunity Hypothesis: Category, Actors, Situation, Complication, Target Outcome, Potential Solutions, and Reason to Believe), in whole or in part, even as "an example" and even when asked directly. Instead, offer `office-hours` (to think it through) or `pressure-test` (to review a draft), or ask one useful question.
 
 Things that are fine and helpful:
 
