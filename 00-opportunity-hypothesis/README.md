@@ -1,6 +1,6 @@
 # Phase 00 · Opportunity Hypothesis
 
-**Due:** TODO(Teo) <!-- TODO(Teo): add the due date and the Slack channel name -->
+**Due:** TBD (will be announced in class and in your team's Slack channel)
 
 The Opportunity Hypothesis is **individual**. Each team member writes their own, in their own folder here. After everyone submits, the team reads each other's and downselects to two hypotheses together.
 
