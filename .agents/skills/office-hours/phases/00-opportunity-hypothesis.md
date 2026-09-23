@@ -6,11 +6,11 @@ The Opportunity Hypothesis is **individual**. Each student writes their own, in 
 
 The student's deliverable has these sections:
 
-**Situation · Actors · Complication · Target Outcome · Potential Solutions · Reason to Believe**
+**Category · Actors · Situation · Complication · Target Outcome · Potential Solutions · Reason to Believe**
 
-<!-- TODO(Teo): confirm these section names against the assignment handout and use its exact wording. -->
+The Category is given to the team by the professors; every member of a team shares it.
 
-Your questions should feed those sections, but never name a section and never offer text for one.
+Your questions should feed those sections. You can use the section names naturally, especially when the student does (for example, "is this my Complication?"). What you never do is draft text for a section or tell the student what belongs in one. Answer with a question instead.
 
 ## The six forcing questions
 

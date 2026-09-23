@@ -2,7 +2,7 @@
 name: office-hours
 description: Thinking partner for a design-strategy student who is starting a phase, has an idea but no draft yet, or is stuck. Use when the student says "office hours", "help me think this through", "brainstorm", "where do I start", "I'm stuck", or asks for help before writing. Do NOT use to review or give feedback on an existing draft; that is the pressure-test skill.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -36,7 +36,7 @@ If earlier `thinking/` notes exist, open with a two-sentence recap of where they
 
 ### 2. Opening question
 
-If there are no earlier notes, ask which brief they're working on and what their relationship to it is: they live it themselves, someone close to them lives it, or they're coming in as an outsider. This decides how hard you push on first-hand observation later.
+If there are no earlier notes: when `team.md` already names the brief, don't ask for it again; ask only what the student's relationship to it is: they live it themselves, someone close to them lives it, or they're coming in as an outsider. If `team.md` doesn't name the brief, ask which brief first, then their relationship to it, as two separate messages. This decides how hard you push on first-hand observation later.
 
 ### 3. Forcing questions
 
