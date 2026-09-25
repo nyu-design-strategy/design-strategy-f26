@@ -2,7 +2,7 @@
 name: submit
 description: Submits a student's finished draft: makes the PDF, saves it to GitHub, freezes the submission with a tag, and gives the link to post in Slack. Use when the student says "submit", "hand in", "make the PDF", "I'm done", or asks how to turn in their draft. Do NOT use for reviewing or improving the draft (that is pressure-test).
 metadata:
-  version: 1.0.1
+  version: 1.1.0
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -27,7 +27,8 @@ Quick checks, reported in one message, no judgment:
 
 - every section heading from the template is present
 - the **AI use** section has something in it
-- `sessions/` has at least one file besides `.gitkeep`
+- `notes.md` has at least one entry
+- no `> **Gap:**` or `> **Suggestion:**` blockquotes left from `/draft` (each is something they haven't decided on)
 
 If any of these is missing, say which and ask: *"Submit anyway, or fix that first?"*
 
@@ -72,4 +73,4 @@ Get `<org>/<repo>` from `git remote get-url origin`. Print the link and say:
 
 *"Post this link in your team's Slack channel. That's your submission. If you resubmit before the deadline, run /submit again and post the new link; the latest one counts."*
 
-Remind them to `/export` this session into `sessions/` if they haven't.
+Append a one-line `## YYYY-MM-DD · submit` entry to `notes.md` with the tag and link.
