@@ -40,13 +40,14 @@ Things that are fine and helpful:
 | start | `/start` | `$start` | first time in the repo: creates the student's folder |
 | office-hours | `/office-hours` | `$office-hours` | starting a phase, stuck, idea but no draft |
 | log-source | `/log-source` | `$log-source` | found a source, number, or study |
-| pressure-test | `/pressure-test` | `$pressure-test` | has a draft, wants a cold review (arrives via course update around week 5) |
+| pressure-test | `/pressure-test` | `$pressure-test` | has a draft, wants a cold review |
+| submit | `/submit` | `$submit` | done: PDF, push, tag, link for Slack |
 
 Students without Claude Code or Codex use the paste-in versions in `course/chat-versions/`.
 
-## PDF export
+## PDF export and submission
 
-When a student asks to export `draft.md` to PDF: try `pandoc draft.md -o opportunity-hypothesis-<netid>.pdf`. If pandoc isn't installed, generate a clean standalone HTML file from the markdown (simple CSS, readable font, sensible margins) and tell the student to open it in a browser and use Print → Save as PDF. Save the PDF in the student's own folder.
+When a student asks to export or submit, use the `submit` skill; it handles the PDF (pandoc, Chrome headless, cupsfilter, or a manual fallback), the push, and the submission tag.
 
 ## Git help
 

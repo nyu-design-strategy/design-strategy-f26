@@ -30,8 +30,8 @@ Anything in this repo starting with a dot (`.claude`, `.agents`, `.github`) is p
 1. **`/office-hours`** (30 to 45 minutes). Six questions, one at a time, about who has this problem, what they do today, what changed, who benefits from the status quo, what you've seen yourself, and what would have to be true. It ends with one real-world task. Do the task.
 2. **`/log-source`** every time you find a number, study, or article worth using. It writes one page into the team's shared `sources/` folder and checks whether the source actually supports your claim.
 3. **Write `draft.md` yourself.** It's in your folder, already set up from the template.
-4. **`/pressure-test`** when you have a draft. A cold read that finds your weakest link. It arrives through a course update around week 5.
-5. **Submit.** See below.
+4. **`/pressure-test`** when you have a draft. A cold read that finds your weakest link. Fix what matters, run it again if you want.
+5. **`/submit`** when you're done. It makes the PDF, saves it to GitHub, freezes your submission, and gives you the link to post in Slack.
 
 Use `/office-hours` as many times as you want. It remembers where you left off.
 
@@ -49,11 +49,11 @@ At the end of your draft, fill in the **AI use** section. The syllabus requires 
 
 ## Submitting
 
-1. **Make a PDF.** Ask your AI to "export my draft.md to PDF", or open the file in any editor and save as PDF. Name it `opportunity-hypothesis-<your-netid>.pdf`, put it in your folder, commit and push.
-2. **Create a release.** On the repo's GitHub page: **Releases → Draft a new release → Choose a tag**, type `oh-<your-netid>`, click **Create new tag**. Title: *Opportunity Hypothesis – Your Name*. Drag your PDF into the attachments box. **Publish release**.
-3. **Post the link in your team's Slack channel.** Under **Assets** on the release, right-click your PDF, copy the link, post it.
+Type `/submit` (Codex: `$submit`). It makes the PDF from your draft, saves it to GitHub, marks that exact version as your submission, and prints a link. **Post the link in your team's Slack channel.** That's it.
 
-A release freezes that exact version of the repo, including your `sessions/` folder. To resubmit before the deadline, make a new release tagged `oh-<netid>-v2` and post the new link. The latest one before the deadline counts.
+The mark is permanent, so changes you push later won't alter what you submitted, and your `sessions/` folder is frozen with it. To resubmit before the deadline, run `/submit` again and post the new link. The latest one before the deadline counts.
+
+Free chat: the steps are in `course/chat-versions/submit.md`.
 
 ---
 
@@ -85,4 +85,4 @@ Any free AI account works (Claude, ChatGPT, Gemini). You paste a skill into the 
 
 ## Help
 
-Post in your team's Slack channel or message Teo. Office hours by appointment, 2 MetroTech Center, Room 828.
+Post in your team's Slack channel or message Teo. Office hours are online; message Teo on Slack to schedule.
