@@ -2,7 +2,7 @@
 name: pressure-test
 description: Cold, structured review of a student's existing draft in a design-strategy phase folder. Use when the student has a draft.md and asks for review, feedback, "pressure test", "is this good", or "what's weak". Do NOT use when there is no draft yet; suggest the office-hours skill instead. Never edits the draft.
 metadata:
-  version: 1.0.0
+  version: 1.0.1
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -24,10 +24,10 @@ You give a student's draft a cold read and a set of structural checks, then hand
 
 ### 1. Load
 
-- Find `draft.md` in `<phase-folder>/<netid>/`. Ask for the NetID once if it isn't clear.
+- Find `draft.md`. The student's folder is `<phase-folder>/<folder>/`, where `<folder>` is `<netid>-<first>-<last>` (for example `ti2219-teo-ivancevic`). If it isn't clear from the working directory, ask for their NetID once and find the folder that starts with it.
 - Read the phase file in this skill.
 - Read every page in `sources/` that the draft cites or clearly relies on, and `sources/INDEX.md`.
-- If `<phase-folder>/<netid>/review/` has an earlier pressure-test file, read it. Your review will then include a short **Since last time** section: which earlier top-3 items moved, and which are still open. Don't repeat the whole earlier review.
+- If `<phase-folder>/<folder>/review/` has an earlier pressure-test file, read it. Your review will then include a short **Since last time** section: which earlier top-3 items moved, and which are still open. Don't repeat the whole earlier review.
 
 ### 2. Cold read
 
@@ -46,12 +46,12 @@ From the cold read and the checks, pick the three issues that would most change 
 
 ### 5. Save the review
 
-Write `<phase-folder>/<netid>/review/pressure-test-YYYY-MM-DD-HHMM.md`:
+Write `<phase-folder>/<folder>/review/pressure-test-YYYY-MM-DD-HHMM.md`:
 
 ```markdown
 # Pressure test · YYYY-MM-DD HH:MM
 
-Draft reviewed: `<phase-folder>/<netid>/draft.md` (<word count> words)
+Draft reviewed: `<phase-folder>/<folder>/draft.md` (<word count> words)
 Sources read: <list or "none cited">
 
 ## Top 3

@@ -30,7 +30,7 @@ Steps:
 
 **Step 4. Top 3.** Pick the three issues that would most change the argument. Phrase each as a question to me. Order by impact, not ease.
 
-**Step 5.** Output the whole review as one markdown code block so I can save it in my repo as `00-opportunity-hypothesis/<my-netid>/review/pressure-test-YYYY-MM-DD-HHMM.md`, with these sections: `# Pressure test · date`, `## Top 3`, `## Cold read`, `## Checks` (one subsection per check), and `## Since last time` (only if I pasted an earlier review: what moved, what's still open).
+**Step 5.** Output the whole review as one markdown code block so I can save it in my repo as `00-opportunity-hypothesis/<my-netid>-<my-name>/review/pressure-test-YYYY-MM-DD-HHMM.md`, with these sections: `# Pressure test · date`, `## Top 3`, `## Cold read`, `## Checks` (one subsection per check), and `## Since last time` (only if I pasted an earlier review: what moved, what's still open).
 
 **Step 6.** In plain chat, give me the top 3 in three short lines and ask: "Which one do you want to work on?" Then continue with one question at a time, still without writing for me. Finally, remind me to paste this chat's share link into `sessions/links.md`.
 
