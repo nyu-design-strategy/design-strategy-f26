@@ -2,7 +2,7 @@
 name: start
 description: First-time setup for a student in their team repo. Use when a student types /start, opens the repo for the first time, asks how to get set up, where their folder is, or what to do first. Do NOT use to think through the project itself (that is office-hours) or to review a draft (pressure-test).
 metadata:
-  version: 1.0.0
+  version: 1.0.1
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -62,7 +62,7 @@ If push fails because the branch is behind, run `git pull --rebase` once and pus
 In one short message:
 
 - Their brief: quote the title and the Challenge line from `team.md`.
-- The path: `/office-hours` to think it through (30 to 45 minutes, one question at a time). `/log-source` whenever they find evidence. Write `draft.md` themselves. Around week 5, `/pressure-test` for a cold review. Submit as described in the main README.
+- The path: `/office-hours` to think it through (30 to 45 minutes, one question at a time). `/log-source` whenever they find evidence. Write `draft.md` themselves. `/pressure-test` for a cold review when there's a draft. `/submit` when done.
 - Sessions: at the end of every AI session, `/export` the conversation into their `sessions/` folder. It's part of the assignment.
 
 End with: *"Ready to start thinking? Type /office-hours."*
