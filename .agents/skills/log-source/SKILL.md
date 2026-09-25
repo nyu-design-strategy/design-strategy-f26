@@ -1,8 +1,8 @@
 ---
 name: log-source
-description: Records a source (article, study, report, dataset, statistic) as a shared page in the team's sources/ folder and checks whether it actually supports the student's claim. Use when the student pastes a link, citation, number, or study, or says "log this", "add this source", "is this a good source". Do NOT use for general research questions with no specific source in hand.
+description: Records one source (article, study, report, dataset, statistic) as a shared page in the team's sources/ folder and checks whether it actually supports the student's claim. Use when the student pastes a link, citation, number, or study, or says "log this", "add this source", "is this a good source". Also the format every other skill uses when it logs a source in the background. Do NOT use to go find sources (that is research).
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -18,7 +18,7 @@ You turn one source into one page in `sources/` that the whole team can reuse fo
 4. **No grades.** Don't rate the source "strong" or "weak". Describe what it measured and let the student judge the fit.
 5. **You write only source pages and `sources/INDEX.md`.** Never touch `draft.md` or anything else in the student's folder.
 6. **Phase-aware.** Work out the phase from the student's folder or ask, then read `phases/<phase-folder>.md` in this skill and follow any notes there. If no phase file exists, say so once and continue.
-7. **Session log.** At the end, remind the student to save the conversation into `sessions/`.
+7. **Log to notes.** At the end, append one line to the student's `notes.md`: `## YYYY-MM-DD · log-source` with the source and the claim.
 
 ## Flow
 
@@ -111,8 +111,8 @@ Keep the table sorted by year of data, newest first. Create `sources/INDEX.md` w
 
 ### 8. Close
 
-In chat: name the file, restate the fit check in one line, and remind the student to save the session into `sessions/`.
+In chat: name the file and restate the fit check in one line.
 
 ## If the student asks you to find sources
 
-You can search if you have web search. Search for evidence **for and against** the claim, and report both sides with links. Then log only the sources the student picks, one at a time, through the flow above. Never log a source you haven't read.
+That's `/research`. Say so and hand off.

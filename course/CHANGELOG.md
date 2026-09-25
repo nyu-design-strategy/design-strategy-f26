@@ -3,6 +3,7 @@
 Newest first. When you see a new entry here, or an "Update from course" pull request in your team repo, merge it (see the README, "Getting updates from the course").
 
 <!-- entries -->
+- **2026-09-25** · log-source v1.1.0: log-source: for one link in hand; finding sources is /research.
 - **2026-09-25** · submit v1.1.0: submit: checks notes.md and leftover gap markers before submitting.
 - **2026-09-25** · start v1.2.0: start: sets up draft.md, notes.md, sessions/.
 - **2026-09-25** · pressure-test v1.1.0: pressure-test: review goes into notes.md.

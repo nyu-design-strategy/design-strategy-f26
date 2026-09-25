@@ -55,6 +55,6 @@ added_by: <my netid>
 
 `| [<title>](<year>-<short-slug>.md) | <type> | <year of data> | <the key number, one phrase> | <my netid> |`
 
-**Step 8.** Remind me to paste this chat's share link into `sessions/links.md` in my folder.
+**Step 8.** Output a one-line notes entry (`## YYYY-MM-DD · log-source`, source and claim) I can append to my `notes.md`.
 
 Begin with Step 1.
