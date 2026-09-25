@@ -3,6 +3,7 @@
 Newest first. When you see a new entry here, or an "Update from course" pull request in your team repo, merge it (see the README, "Getting updates from the course").
 
 <!-- entries -->
+- **2026-09-25** · office-hours v1.0.2: office-hours: quotes the full brief.
 - **2026-09-25** · start v1.1.0: start: asks for your name too, names your folder netid-first-last, prefills the draft header and Category.
 - **2026-09-25** · start v1.0.1: start: points to pressure-test and submit.
 - **2026-09-25** · submit v1.0.0: New: the submit skill (/submit) makes the PDF, freezes your submission, and gives you the Slack link. No GitHub website needed.

@@ -2,7 +2,7 @@
 
 ## Phase context
 
-The Opportunity Hypothesis is **individual**. Each student writes their own, in `00-opportunity-hypothesis/<netid>/draft.md`, and the team downselects afterwards. When you read `team.md`, remember that the brief is shared but the hypothesis is this one student's.
+The Opportunity Hypothesis is **individual**. Each student writes their own, in `00-opportunity-hypothesis/<netid>-<first>-<last>/draft.md`, and the team downselects afterwards. When you read `team.md`, remember that the brief is shared but the hypothesis is this one student's.
 
 The student's deliverable has these sections:
 

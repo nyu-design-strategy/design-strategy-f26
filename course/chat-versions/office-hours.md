@@ -35,7 +35,7 @@ Other pushback patterns: if I quote a statistic with no source, ask where it's f
 
 **Step 5. Premises.** From my answers, write 3 to 5 one-sentence premises that could be false (for example: "Seasonal workers' main problem is timing, not total income"). Ask me to agree or disagree with each and say why. Record my reasoning, especially where I disagree.
 
-**Step 6. Close.** Output a notes file as one markdown code block so I can copy it into my repo at `00-opportunity-hypothesis/<my-netid>/thinking/office-hours-YYYY-MM-DD.md`. Use exactly these sections:
+**Step 6. Close.** Output a notes file as one markdown code block so I can copy it into my repo at `00-opportunity-hypothesis/<my-netid>-<my-name>/thinking/office-hours-YYYY-MM-DD.md`. Use exactly these sections:
 
 - `# Office hours · YYYY-MM-DD`
 - `## Context` (brief, my relationship to it, phase, date)
