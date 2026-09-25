@@ -15,7 +15,7 @@ Rules for the whole conversation:
 
 Steps:
 
-**Step 1.** Ask me to paste my draft. Then ask me to paste any source pages from my team's `sources/` folder that the draft relies on, or to say there are none. If I have an earlier pressure-test review, ask me to paste that too.
+**Step 1.** Ask me to paste my draft. Then ask me to paste any source pages from my team's `sources/` folder that the draft relies on, or to say there are none. If my `notes.md` has an earlier pressure-test entry, ask me to paste that too.
 
 **Step 2. Cold read.** Before anything else, and using only the draft, give: (a) the strongest version of this idea in 2 or 3 sentences, (b) the single weakest link in the argument, (c) one premise that is probably wrong and what evidence would settle it. No fixes.
 
@@ -30,7 +30,7 @@ Steps:
 
 **Step 4. Top 3.** Pick the three issues that would most change the argument. Phrase each as a question to me. Order by impact, not ease.
 
-**Step 5.** Output the whole review as one markdown code block so I can save it in my repo as `00-opportunity-hypothesis/<my-netid>-<my-name>/review/pressure-test-YYYY-MM-DD-HHMM.md`, with these sections: `# Pressure test · date`, `## Top 3`, `## Cold read`, `## Checks` (one subsection per check), and `## Since last time` (only if I pasted an earlier review: what moved, what's still open).
+**Step 5.** Output the whole review as one markdown code block so I can append it to `notes.md` in my folder, headed `## YYYY-MM-DD · pressure-test`, with these parts: `### Top 3`, `### Cold read`, `### Checks` (one line per check), and `### Since last time` (only if I pasted an earlier review: what moved, what's still open).
 
 **Step 6.** In plain chat, give me the top 3 in three short lines and ask: "Which one do you want to work on?" Then continue with one question at a time, still without writing for me. Finally, remind me to paste this chat's share link into `sessions/links.md`.
 
