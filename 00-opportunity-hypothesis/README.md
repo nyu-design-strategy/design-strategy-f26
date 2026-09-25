@@ -15,7 +15,7 @@ The Opportunity Hypothesis is **individual**. Each team member writes their own,
     └── sessions/       your exported AI conversations (or links.md with share links)
 ```
 
-If your folder isn't there yet, create it with these four items. Don't write in a teammate's folder.
+If your folder isn't there yet, type `/start` (Claude Code) or `$start` (Codex) and it creates it. Don't write in a teammate's folder.
 
 ## Suggested workflow
 

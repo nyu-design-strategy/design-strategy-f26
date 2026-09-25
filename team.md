@@ -1,16 +1,16 @@
 # Team
 
-## Team name
+**Group:** <!-- group --> · **Team name:** TBD
+
+## Brief
+
+<!-- brief -->
 
 ## Members
 
 | Name | NetID | GitHub username |
 |---|---|---|
 | | | |
-
-## Brief(s)
-
-*Which brief(s) the team is working on, and a one-paragraph statement of the problem space in your own words.*
 
 ## Decision log
 

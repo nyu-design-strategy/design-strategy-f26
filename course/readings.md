@@ -2,7 +2,7 @@
 
 Short summaries, in our own words, of the frameworks the skills lean on. These aren't substitutes for the readings. The skills will sometimes point you to one of these when a question comes from it.
 
-<!-- TODO(Teo): replace public links with the syllabus links (NYU library / Brightspace) where those differ. -->
+The syllabus itself lives in Google Docs and is pinned in Slack; this file only summarizes the frameworks the skills refer to.
 
 ## Michael Porter, "What Is Strategy?" (HBR, 1996)
 
@@ -13,8 +13,6 @@ https://hbr.org/1996/11/what-is-strategy
 ## Roger Martin (with A.G. Lafley), *Playing to Win* (2013)
 
 Strategy is a set of five linked choices: what winning means, where to play, how to win, what capabilities that requires, and what management systems support it. The part the skills use most is Martin's move for testing a strategy: instead of arguing about whether an option is right, ask **"what would have to be true"** for it to be right, then go find out. The conditions that would have to be true become testable premises.
-
-<!-- TODO(Teo): add the syllabus link for the Playing to Win excerpt. -->
 
 ## Clayton Christensen, Taddy Hall, Karen Dillon, David Duncan, "Know Your Customers' 'Jobs to Be Done'" (HBR, 2016)
 

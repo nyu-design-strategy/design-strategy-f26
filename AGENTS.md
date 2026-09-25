@@ -37,6 +37,7 @@ Things that are fine and helpful:
 
 | Skill | Claude Code | Codex | When |
 |---|---|---|---|
+| start | `/start` | `$start` | first time in the repo: creates the student's folder |
 | office-hours | `/office-hours` | `$office-hours` | starting a phase, stuck, idea but no draft |
 | log-source | `/log-source` | `$log-source` | found a source, number, or study |
 | pressure-test | `/pressure-test` | `$pressure-test` | has a draft, wants a cold review (arrives via course update around week 5) |
