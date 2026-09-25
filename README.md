@@ -69,7 +69,7 @@ New skills and templates arrive as a pull request called **Update from course**.
 team.md                        your brief, members, decisions        YOURS
 sources/                       one page per source, shared           YOURS
 00-opportunity-hypothesis/
-  <your-netid>/                draft.md, thinking/, review/, sessions/   YOURS
+  <netid>-<first>-<last>/      draft.md, thinking/, review/, sessions/   YOURS
 course/                        templates, readings, changelog        COURSE
 ```
 

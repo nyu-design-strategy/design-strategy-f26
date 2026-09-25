@@ -8,7 +8,7 @@ The Opportunity Hypothesis is **individual**. Each team member writes their own,
 
 ```
 00-opportunity-hypothesis/
-└── <your-netid>/
+└── <your-netid>-<your-name>/     e.g. ti2219-teo-ivancevic
     ├── draft.md        your hypothesis (start from course/templates/opportunity-hypothesis.md)
     ├── thinking/       notes the office-hours skill writes
     ├── review/         notes the pressure-test skill writes
