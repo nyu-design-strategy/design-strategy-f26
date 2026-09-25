@@ -9,23 +9,21 @@ The Opportunity Hypothesis is **individual**. Each team member writes their own,
 ```
 00-opportunity-hypothesis/
 └── <your-netid>-<your-name>/     e.g. ti2219-teo-ivancevic
-    ├── draft.md        your hypothesis (start from course/templates/opportunity-hypothesis.md)
-    ├── thinking/       notes the office-hours skill writes
-    ├── review/         notes the pressure-test skill writes
-    └── sessions/       your exported AI conversations (or links.md with share links)
+    ├── draft.md        your hypothesis; /start sets it up, /draft fills it from your notes
+    ├── notes.md        every skill and conversation writes here; you don't maintain it
+    └── sessions/       optional full transcript exports
 ```
 
 If your folder isn't there yet, type `/start` (Claude Code) or `$start` (Codex) and it creates it. Don't write in a teammate's folder.
 
 ## Suggested workflow
 
-1. **Start with `office-hours`** (30 to 45 minutes). It asks you six questions, one at a time, about who has this problem, what they do today, what changed, who benefits from the status quo, what you've seen yourself, and what would have to be true. It ends with one real-world task. Do the task.
-2. **Log sources as you go** with `log-source`, into the team's shared `sources/` folder. Don't wait until the end to hunt for evidence for claims you've already written.
-3. **Write `draft.md` yourself.** Copy `course/templates/opportunity-hypothesis.md` into your folder as `draft.md` and fill it in. The skills won't write it for you, and neither should any other AI. Explaining, formatting, and finding sources is fine.
-4. **Run `pressure-test`** when you have a draft. Fix what matters; run it again if you want.
-5. **Make sure your AI sessions are saved** in `sessions/`. See the main README, "Your AI sessions are part of the assignment".
-6. **Add the AI use note** at the end of your draft.
-7. **Run `submit`.** It makes the PDF, saves it to GitHub, freezes the submission, and gives you the link to post in your team's Slack channel.
+1. **Start with `office-hours`** (30 to 45 minutes). Six questions, one at a time. It ends with one real-world task. Do the task; it's usually the most valuable 15 minutes of the week.
+2. **`research`** when you want evidence for or against something you believe. It logs the sources for the whole team.
+3. **`draft`** when you have enough to say. It writes `draft.md` from your notes in your words and marks what's missing. Go back to office-hours or research for the gaps, then run it again.
+4. **`pressure-test`** on the draft. Fix what matters; run it again if you want.
+5. **Check the AI use section** at the end of the draft. `/draft` writes a first version; make sure it's true.
+6. **`submit`.** PDF, frozen, link for your team's Slack channel.
 
 ## Sections
 

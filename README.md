@@ -25,25 +25,25 @@ Anything in this repo starting with a dot (`.claude`, `.agents`, `.github`) is p
 
 ---
 
-## The five moves
+## The six moves
 
-1. **`/office-hours`** (30 to 45 minutes). Six questions, one at a time, about who has this problem, what they do today, what changed, who benefits from the status quo, what you've seen yourself, and what would have to be true. It ends with one real-world task. Do the task.
-2. **`/log-source`** every time you find a number, study, or article worth using. It writes one page into the team's shared `sources/` folder and checks whether the source actually supports your claim.
-3. **Write `draft.md` yourself.** It's in your folder, already set up from the template.
-4. **`/pressure-test`** when you have a draft. A cold read that finds your weakest link. Fix what matters, run it again if you want.
-5. **`/submit`** when you're done. It makes the PDF, saves it to GitHub, freezes your submission, and gives you the link to post in Slack.
+1. **`/office-hours`** (30 to 45 minutes). Six questions, one at a time, about who has this problem, what they do today, what changed, who benefits from the status quo, what you've seen yourself, and what would have to be true. Ends with one real-world task. Do the task.
+2. **`/research`** when you want evidence. Give it a claim; it searches for and against it, reads what it finds, and logs the sources into the team's shared `sources/` folder for you.
+3. **`/draft`** turns your notes and sources into `draft.md`, in your words. Where you haven't worked something out yet, it says so instead of making something up. Anything it adds on its own is marked as a suggestion.
+4. **`/pressure-test`** gives the draft a cold read and finds the weakest link. Fix what matters, run it again.
+5. **`/submit`** when you're done. PDF, saved to GitHub, frozen, link for Slack.
 
-Use `/office-hours` as many times as you want. It remembers where you left off.
+And in between, **just talk to it.** Ask it anything, argue with it, think out loud. It reads your notes at the start of every conversation, so you never re-explain your project.
+
+**You don't keep notes; it does.** Every skill and every conversation writes a dated entry into your `notes.md`. That file is your record of how you used AI, which the course asks for. `/export` of a full transcript into `sessions/` is optional.
 
 ---
 
-## Your AI sessions are part of the assignment
+## How you use AI is part of the assignment
 
-At the end of every session, save the conversation into your `sessions/` folder. In Claude Code, type `/export`. In Codex or other tools, use the export or share option. Free chat: paste the share link into `sessions/links.md`.
+The course wants to see what *you* brought: something you knew that the AI didn't, a point where you disagreed and said why, a direction you chose that it didn't suggest. Your `notes.md` shows that, because every entry records what the AI contributed and what you did. The **AI use** section at the end of your draft summarizes it; `/draft` writes a first honest version and you edit it.
 
-What makes a session log interesting is what *you* brought: something you knew that the AI didn't, a point where you disagreed and said why, a direction you chose that it didn't suggest.
-
-At the end of your draft, fill in the **AI use** section. The syllabus requires it.
+The AI in this repo has two rules it won't break: it never invents a fact or a source, and it never grades you. Everything else is fair game.
 
 ---
 
@@ -69,7 +69,7 @@ New skills and templates arrive as a pull request called **Update from course**.
 team.md                        your brief, members, decisions        YOURS
 sources/                       one page per source, shared           YOURS
 00-opportunity-hypothesis/
-  <netid>-<first>-<last>/      draft.md, thinking/, review/, sessions/   YOURS
+  <netid>-<first>-<last>/      draft.md, notes.md, sessions/            YOURS
 course/                        templates, readings, changelog        COURSE
 ```
 
