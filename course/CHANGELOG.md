@@ -3,6 +3,7 @@
 Newest first. When you see a new entry here, or an "Update from course" pull request in your team repo, merge it (see the README, "Getting updates from the course").
 
 <!-- entries -->
+- **2026-09-25** · draft v1.0.0: New: /draft writes draft.md from your notes and sources, in your words, with gaps marked.
 - **2026-09-25** · research v1.0.0: New: /research finds evidence for and against a claim and logs the sources for you.
 - **2026-09-25** · submit v1.0.1: submit: folder naming.
 - **2026-09-25** · pressure-test v1.0.1: pressure-test: folder naming.
