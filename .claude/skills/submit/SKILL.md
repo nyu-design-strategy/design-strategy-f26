@@ -2,7 +2,7 @@
 name: submit
 description: Submits a student's finished draft: makes the PDF, saves it to GitHub, freezes the submission with a tag, and gives the link to post in Slack. Use when the student says "submit", "hand in", "make the PDF", "I'm done", or asks how to turn in their draft. Do NOT use for reviewing or improving the draft (that is pressure-test).
 metadata:
-  version: 1.0.0
+  version: 1.0.1
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -21,7 +21,7 @@ You turn `draft.md` into a PDF, put it in the student's folder, push it to GitHu
 
 ### 1. Find the draft
 
-Work out the phase and the student's folder (`<phase-folder>/<netid>/`). Ask for the NetID once if it isn't clear. Read the phase file in this skill for the tag prefix and PDF name. Confirm `draft.md` exists and isn't just the untouched template.
+Work out the phase. The student's folder is `<phase-folder>/<folder>/`, where `<folder>` is `<netid>-<first>-<last>` (for example `ti2219-teo-ivancevic`). If it isn't clear from the working directory, ask for their NetID once and find the folder that starts with it. Read the phase file in this skill for the tag prefix and PDF name. Confirm `draft.md` exists and isn't just the untouched template.
 
 Quick checks, reported in one message, no judgment:
 
@@ -65,7 +65,7 @@ If the tag already exists (a resubmission), don't touch it. Use the next free su
 Build the link to the PDF at that tag:
 
 ```
-https://github.com/<org>/<repo>/blob/<tag>/<phase-folder>/<netid>/<pdf-name>
+https://github.com/<org>/<repo>/blob/<tag>/<phase-folder>/<folder>/<pdf-name>
 ```
 
 Get `<org>/<repo>` from `git remote get-url origin`. Print the link and say:

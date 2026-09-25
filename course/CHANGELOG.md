@@ -3,6 +3,7 @@
 Newest first. When you see a new entry here, or an "Update from course" pull request in your team repo, merge it (see the README, "Getting updates from the course").
 
 <!-- entries -->
+- **2026-09-25** · submit v1.0.1: submit: folder naming.
 - **2026-09-25** · pressure-test v1.0.1: pressure-test: folder naming.
 - **2026-09-25** · office-hours v1.0.2: office-hours: quotes the full brief.
 - **2026-09-25** · start v1.1.0: start: asks for your name too, names your folder netid-first-last, prefills the draft header and Category.
