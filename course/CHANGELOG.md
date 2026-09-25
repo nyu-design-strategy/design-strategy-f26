@@ -3,6 +3,7 @@
 Newest first. When you see a new entry here, or an "Update from course" pull request in your team repo, merge it (see the README, "Getting updates from the course").
 
 <!-- entries -->
+- **2026-09-25** · start v1.2.0: start: sets up draft.md, notes.md, sessions/.
 - **2026-09-25** · pressure-test v1.1.0: pressure-test: review goes into notes.md.
 - **2026-09-25** · office-hours v1.1.0: office-hours: notes now go to one notes.md file; hands off to /draft.
 - **2026-09-25** · draft v1.0.0: New: /draft writes draft.md from your notes and sources, in your words, with gaps marked.

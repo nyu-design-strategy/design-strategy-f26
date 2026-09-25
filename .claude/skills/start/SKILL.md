@@ -2,7 +2,7 @@
 name: start
 description: First-time setup for a student in their team repo. Use when a student types /start, opens the repo for the first time, asks how to get set up, where their folder is, or what to do first. Do NOT use to think through the project itself (that is office-hours) or to review a draft (pressure-test).
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -42,9 +42,8 @@ Work out the current phase from the phase file in this skill (`phases/`). For th
 ```
 00-opportunity-hypothesis/<folder>/
 ├── draft.md          from course/templates/opportunity-hypothesis.md, with the header and Category prefilled
-├── thinking/.gitkeep
-├── review/.gitkeep
-└── sessions/.gitkeep
+├── notes.md          running log; every skill and conversation appends here
+└── sessions/.gitkeep optional raw exports
 ```
 
 Prefill in `draft.md`, and nothing else:
@@ -61,6 +60,8 @@ Prefill in `draft.md`, and nothing else:
   ```
 
 Every other section stays exactly as the template has it.
+
+`notes.md` starts with one line: `# Notes · <name> (<netid>)`. Nothing else.
 
 If the folder already exists, say so and don't overwrite anything. Then add or complete the student's row in the `team.md` members table (name, NetID, GitHub username). If a row with their NetID exists, fill in what's missing; don't touch other rows.
 
@@ -81,8 +82,8 @@ If push fails because the branch is behind, run `git pull --rebase` once and pus
 In one short message:
 
 - Their brief, both lines quoted verbatim: the **Secular waves** line and the **Challenge** line.
-- The path: `/office-hours` to think it through (30 to 45 minutes, one question at a time). `/log-source` whenever they find evidence. Write `draft.md` themselves; the header and Category are already filled in. `/pressure-test` for a cold review when there's a draft. `/submit` when done.
-- Sessions: at the end of every AI session, `/export` the conversation into their `sessions/` folder. It's part of the assignment.
+- The path: `/office-hours` to think it through (30 to 45 minutes, one question at a time). `/research` when they want evidence for or against something. `/draft` to turn their notes into the write-up, with gaps marked. `/pressure-test` for a cold review. `/submit` when done. In between, just talk; the AI reads their notes every time, so nothing needs re-explaining.
+- Their `notes.md` is written for them by every skill and conversation. It's the record of their AI use that the course reads; they don't have to maintain it.
 
 End with: *"Ready to start thinking? Type /office-hours."*
 
