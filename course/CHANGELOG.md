@@ -3,6 +3,7 @@
 Newest first. When you see a new entry here, or an "Update from course" pull request in your team repo, merge it (see the README, "Getting updates from the course").
 
 <!-- entries -->
+- **2026-10-05** · submit v1.2.0: Saves your whole folder and sources with the PDF. Team submissions (tag cf-team). Phase 01 individual tag cf-<netid>.
 - **2026-10-05** · log-source v1.2.0: Phase 01 notes for competitor size numbers. Now pushes the source page it writes.
 - **2026-10-05** · pressure-test v1.2.0: Phase 01 checks: market, same customer, biggest by what measure, and whether the loop is a loop.
 - **2026-10-05** · draft v1.1.0: Phase 01: fills the Competitors and Flywheel template and renders your loop as a diagram you can screenshot.

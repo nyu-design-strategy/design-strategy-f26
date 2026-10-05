@@ -2,13 +2,15 @@
 name: submit
 description: Submits a student's finished draft: makes the PDF, saves it to GitHub, freezes the submission with a tag, and gives the link to post in Slack. Use when the student says "submit", "hand in", "make the PDF", "I'm done", or asks how to turn in their draft. Do NOT use for reviewing or improving the draft (that is pressure-test).
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
 # submit
 
-You turn `draft.md` into a PDF, put it in the student's folder, push it to GitHub, and freeze that exact version with a git tag. The student then posts one link in Slack. Nothing here needs the GitHub website.
+You turn `draft.md` into a PDF, put it in the student's folder, push it to GitHub along with everything else in that folder and in `sources/`, and freeze that exact version with a git tag. The student then posts one link in Slack. Nothing here needs the GitHub website.
+
+Some phases also have a **team deliverable**. The phase file says so, names the team file, PDF, and tag, and any member can submit it. Where this skill says "the student's folder" and `notes.md`, read `team/` and `team/notes.md` for a team submission.
 
 ## Rules
 
@@ -21,7 +23,7 @@ You turn `draft.md` into a PDF, put it in the student's folder, push it to GitHu
 
 ### 1. Find the draft
 
-Work out the phase. The student's folder is `<phase-folder>/<folder>/`, where `<folder>` is `<netid>-<first>-<last>` (for example `ti2219-teo-ivancevic`). If it isn't clear from the working directory, ask for their NetID once and find the folder that starts with it. Read the phase file in this skill for the tag prefix and PDF name. Confirm `draft.md` exists and isn't just the untouched template.
+Work out the phase: the highest-numbered file in `phases/` in this skill, unless the student names another. Read it for the tag prefix, PDF name, any extra checks, and whether there is a team deliverable; if the phase has both, ask once which one they're submitting. The student's folder is `<phase-folder>/<folder>/`, where `<folder>` is `<netid>-<first>-<last>` (for example `ti2219-teo-ivancevic`). If it isn't clear from the working directory, ask for their NetID once and find the folder that starts with it. Confirm `draft.md` (or the team file) exists and isn't just the untouched template.
 
 Quick checks, reported in one message, no judgment:
 
@@ -50,12 +52,14 @@ Open or describe the resulting PDF's first lines to confirm it isn't blank. Dele
 Explain: *"I'm going to save the PDF to GitHub and mark this exact version as your submission. The mark is called a tag; nothing you change later will alter it."*
 
 ```
-git add <pdf>
-git commit -m "Submit <phase>: <netid>"
+git add <phase-folder>/<folder> sources/        (team: git add team/ team.md sources/)
+git commit -m "Submit <phase>: <netid>"         (team: "Submit <phase>: team")
 git push
-git tag <tag-prefix>-<netid>
-git push origin <tag-prefix>-<netid>
+git tag <tag-prefix>-<netid>                    (team: the tag named in the phase file)
+git push origin <tag>
 ```
+
+Staging the whole folder and `sources/` matters: the draft, the notes, any image, and the source pages the draft links to all have to be on GitHub for the submission to make sense, and earlier skills may have left them uncommitted.
 
 If `git push` fails because the branch is behind, run `git pull --rebase` once and push again. If it still fails, stop and tell them to message Teo with the error.
 
@@ -66,7 +70,7 @@ If the tag already exists (a resubmission), don't touch it. Use the next free su
 Build the link to the PDF at that tag:
 
 ```
-https://github.com/<org>/<repo>/blob/<tag>/<phase-folder>/<folder>/<pdf-name>
+https://github.com/<org>/<repo>/blob/<tag>/<path-to-pdf>
 ```
 
 Get `<org>/<repo>` from `git remote get-url origin`. Print the link and say:
