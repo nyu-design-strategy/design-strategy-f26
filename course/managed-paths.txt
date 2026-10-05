@@ -11,6 +11,7 @@ AGENTS.md
 CLAUDE.md
 .agents/skills
 .claude/skills
+.claude/settings.json
 course
 
 00-opportunity-hypothesis/README.md

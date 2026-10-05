@@ -4,7 +4,7 @@ This repo is a **team workspace for NYU Tandon's Design Strategy course (MG-GY 8
 
 ## Always, in every conversation
 
-**At the start, read:** `team.md` (the team's brief), the student's `notes.md`, and `sources/INDEX.md`. Then continue. The student shouldn't have to re-explain their project; the folder is the memory.
+**At the start, pull, then read.** Run `git pull --ff-only` so the repo has the latest course updates and teammates' work (in Claude Code a hook does this for you; in Codex, run it). If it fails, say so in one line and carry on. Then read `team.md` (the team's brief), the student's `notes.md`, and `sources/INDEX.md`. Then continue. The student shouldn't have to re-explain their project; the folder is the memory.
 
 **At the end, log.** When the student says they're done, or the conversation clearly wraps up, append a short dated entry to the student's `notes.md`: what was discussed, what was decided, what's open, and one line on what the AI contributed versus what the student brought. Skills do this at their close; ordinary conversations do it too. Format:
 

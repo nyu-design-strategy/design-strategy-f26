@@ -81,7 +81,7 @@ course/                        templates, readings, changelog        COURSE
 
 Each phase has its own folder with a `README.md` saying what's due and how. Your folder name stays the same from phase to phase; `/start` makes the new one.
 
-Don't edit course-owned files; they're replaced on every update. Updates arrive as a pull request called **Update from course**; your team's repo lead merges it. Want a skill changed? Open an issue on `nyu-design-strategy/design-strategy-f26`. Good suggestions ship to the whole class.
+Don't edit course-owned files; they're replaced on every update. Updates arrive as a pull request called **Update from course**; your team's repo lead merges it. Once merged, Claude Code pulls them for you every time you open the repo; in Codex or GitHub Desktop, pull first. Want a skill changed? Open an issue on `nyu-design-strategy/design-strategy-f26`. Good suggestions ship to the whole class.
 
 ---
 

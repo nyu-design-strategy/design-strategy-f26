@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git pull --ff-only --quiet 2>/dev/null && echo 'Repo is up to date with GitHub.' || echo 'Could not pull the latest updates from GitHub automatically (no connection, or local changes in the way). Tell the student in one line and offer to run git pull.'"
+          }
+        ]
+      }
+    ]
+  }
+}
