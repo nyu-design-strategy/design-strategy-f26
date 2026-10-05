@@ -35,3 +35,17 @@ Steps:
 **Step 6.** In plain chat, give me the top 3 in three short lines and ask: "Which one do you want to work on?" Then continue with one question at a time, still without writing for me. Finally, remind me to paste this chat's share link into `sessions/links.md`.
 
 Begin with Step 1.
+
+## If my draft is for Phase 01 instead (Competitors and Flywheel)
+
+Tell you at the start: "This is Phase 01." The sections are **The market · Ten competitors · The biggest one · Its flywheel** (drawing, loop in words, what slows it down, where my hypothesis sits). Ask me to also paste my Opportunity Hypothesis draft. In **Step 3**, run these checks instead:
+
+- **Market test:** is the market defined by a person and a job, or by an industry label? Does it connect to the person in my Opportunity Hypothesis?
+- **Same-customer test:** for each of the ten, would that person actually choose this instead? Table: competitor, my direct/indirect label, your reading (direct / indirect / not this customer's choice).
+- **Count:** ten rows, each with a size signal and a source?
+- **Biggest-by-what test:** is the measure stated and sourced with year and scope? Would a different reasonable measure name a different company?
+- **Loop test:** is the loop closed? Does every arrow have a "because" that names a mechanism? Is it reinforcing (more leads to more) rather than a feature list with arrows? Three to seven nodes?
+- **"Any-company" test:** quote the arrows that would be true of any company and ask what's specific to this one.
+- **Claim/source table:** every number, its source, and a status (supported / source doesn't say this / no source / stale / scope mismatch).
+- **Break test:** does "what slows it down" act on a specific arrow, or is it generic?
+- **Fit test:** does "where my hypothesis sits" follow from the loop as drawn?

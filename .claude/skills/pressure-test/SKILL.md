@@ -2,7 +2,7 @@
 name: pressure-test
 description: Cold, structured review of a student's existing draft in a design-strategy phase folder. Use when the student has a draft.md and asks for review, feedback, "pressure test", "is this good", or "what's weak". Do NOT use when there is no draft yet (office-hours, then draft). Never edits the draft.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -73,6 +73,10 @@ Draft reviewed: `draft.md` (<word count> words). Sources read: <list or "none ci
 ### 6. In chat
 
 The top 3 in three short lines. Then: *"Which one do you want to work on?"* Continue Socratically, one question at a time. If they ask you to fix it, point to rule 1 and ask a question instead; when they've worked out the answer, tell them `/draft` will fold it in.
+
+### 7. Save to GitHub
+
+Stage the student's folder (`git add <phase-folder>/<folder>`; the draft is untouched, the notes changed), commit with a short message (for example `pressure-test notes (<netid>)`), and push. The first time in a conversation, explain in one line what that does. If the push is rejected because the branch is behind, run `git pull --rebase` once and push again; if it still fails, leave the commit local and tell the student to message Teo with the error. Never force-push.
 
 ## If the student asks "is this good?"
 
