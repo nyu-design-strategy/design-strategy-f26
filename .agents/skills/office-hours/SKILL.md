@@ -2,7 +2,7 @@
 name: office-hours
 description: Thinking partner for a design-strategy student who is starting a phase, has an idea but no draft yet, or is stuck. Use when the student says "office hours", "help me think this through", "brainstorm", "where do I start", "I'm stuck", or wants to work through the problem before writing. Do NOT use to review a draft (pressure-test), compile one (draft), or find evidence (research).
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -80,6 +80,10 @@ Append to the student's `notes.md` (create it with the header `# Notes · <name>
 ```
 
 In chat: say where the notes are, restate the assignment in one sentence, and say they can run `/draft` whenever they want these notes turned into the write-up.
+
+### 7. Save to GitHub
+
+Stage the student's folder and the shared sources (`git add <phase-folder>/<folder> sources/`), commit with a short message (for example `office-hours notes (<netid>)`), and push. The first time in a conversation, explain in one line what that does. If the push is rejected because the branch is behind, run `git pull --rebase` once and push again; if it still fails, leave the commit local and tell the student to message Teo with the error. Never force-push.
 
 ## If the student asks you to just write the section
 

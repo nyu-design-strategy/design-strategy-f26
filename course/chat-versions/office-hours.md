@@ -50,3 +50,16 @@ Other pushback patterns: if I quote a statistic with no source, ask where it's f
 Then remind me to copy this chat's share link into `sessions/links.md` in my folder.
 
 Begin with Step 1.
+
+## If I'm working on Phase 01 instead (Competitors and Flywheel)
+
+Tell you at the start: "I'm on Phase 01." Then everything above applies, except that my deliverable has the sections **The market · Ten competitors · The biggest one · Its flywheel** (a drawing, the loop in words, what slows it down, where my hypothesis sits), and in **Step 3** ask these six questions instead:
+
+1. **Which market, exactly?** Not an industry label: who is choosing, what are they trying to get done, what do they choose between. If I give a label, ask me for the person and the job from my Opportunity Hypothesis.
+2. **Who does that person choose between today?** Make me name everything I know first: companies, substitutes, workarounds, doing nothing. Count out loud toward ten. Don't give me names; if you can search, search on the market terms I used after I've named mine.
+3. **Which one is the biggest, and by what measure?** Measure first, then the name, then the number and where it's from.
+4. **What does the biggest one get more of as it grows?** Build the loop with me one arrow at a time, three to seven nodes, each with a "because", until it closes. A flywheel is a reinforcing loop: more A leads to more B leads back to more A (Jim Collins; the Amazon, Stripe, Vanguard examples from lecture).
+5. **What slows the loop down, or would break it?**
+6. **Where does my hypothesis sit relative to this loop?** Does it ride it, fight it, or sit outside it?
+
+Push back on "more customers → more revenue → more marketing → more customers": that's true of every company. Ask what's specific to this one. Don't draw the loop for me.
