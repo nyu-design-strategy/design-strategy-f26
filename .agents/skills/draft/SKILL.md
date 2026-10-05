@@ -2,7 +2,7 @@
 name: draft
 description: Compiles or updates the student's draft.md from everything already in their notes.md and the team's sources/, section by section, marking gaps and AI suggestions so the student can see what's theirs. Use when the student says "write the draft", "draft this", "put my notes into the template", "update my draft", or wants to turn their thinking into the write-up. Do NOT use to review a draft (pressure-test) or to think through the problem from scratch (office-hours).
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -67,6 +67,10 @@ Append to `notes.md`:
 ```
 
 Remind them: run `/pressure-test` when the gaps are closed, or sooner if they want to know which gap matters most.
+
+### 6. Save to GitHub
+
+Stage the student's folder and the shared sources (`git add <phase-folder>/<folder> sources/`), commit with a short message (for example `draft (<netid>)`), and push. The first time in a conversation, explain in one line what that does. If the push is rejected because the branch is behind, run `git pull --rebase` once and push again; if it still fails, leave the commit local and tell the student to message Teo with the error. Never force-push.
 
 ## Red flags
 

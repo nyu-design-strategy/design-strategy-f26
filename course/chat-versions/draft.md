@@ -27,3 +27,7 @@ Steps:
 **Step 5.** Output a short notes entry I can append to `notes.md`: date, what you drafted from, which sections are written / thin / gap, and what's next.
 
 Begin with Step 1.
+
+## If I'm drafting for Phase 01 instead (Competitors and Flywheel)
+
+Tell you at the start: "This is Phase 01." Ask me to also paste my Opportunity Hypothesis draft. In **Step 3**, the sections are: The Category (leave it), The market, Ten competitors (a table: # | Competitor | What it does | For whom | How it makes money | Size signal (year, source) | Direct / indirect; one row per competitor from my notes and sources only; fewer than ten is a gap, not padding), The biggest one, Its flywheel (the loop in words, one line per arrow with my "because"; you may render my loop as a Mermaid `flowchart LR` using exactly my nodes, and tell me to screenshot it once it's on GitHub and save it as `flywheel.png` in my folder; what slows it down; where my hypothesis sits), AI use.

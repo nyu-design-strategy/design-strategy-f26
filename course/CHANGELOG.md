@@ -3,6 +3,7 @@
 Newest first. When you see a new entry here, or an "Update from course" pull request in your team repo, merge it (see the README, "Getting updates from the course").
 
 <!-- entries -->
+- **2026-10-05** · draft v1.1.0: Phase 01: fills the Competitors and Flywheel template and renders your loop as a diagram you can screenshot.
 - **2026-10-05** · research v1.1.0: Phase 01: competitor facts and size numbers with the measure and year. Now pushes the sources it logs.
 - **2026-10-05** · office-hours v1.2.0: Phase 01 questions: which market, who they choose between, the biggest one and its flywheel. Saves your notes to GitHub when it finishes.
 - **2026-10-05** · start v1.3.0: Phase 01: /start makes your Competitors and Flywheel folder; your phase 00 folder is untouched.
