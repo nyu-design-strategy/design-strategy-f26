@@ -24,3 +24,7 @@
 5. Edit `team.md` and add a row to the Members table with your name, NetID, and GitHub username.
 
 You're set up. Next: open `course/chat-versions/office-hours.md`, copy all of it, paste it into a new chat with any AI, and answer its questions. When it gives you the notes entry at the end, append it to your `notes.md`. Paste the chat's share link into `sessions/links.md`.
+
+## Phase 01 (Competitors and Flywheel)
+
+Same steps, with a new folder next to your phase 00 one. Create `01-competitors-flywheel/<your-netid>-<your-name>/draft.md` (same folder name as before) and paste `course/templates/competitors-flywheel.md` into it; fill the header and the Category lines from `team.md`. Create `notes.md` in the same folder with the header line. Your drawing goes in that folder too, as `flywheel.png`. For the group tasks, one teammate uses `course/chat-versions/team.md` during your team meeting.

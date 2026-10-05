@@ -2,7 +2,7 @@
 name: start
 description: First-time setup for a student in their team repo. Use when a student types /start, opens the repo for the first time, asks how to get set up, where their folder is, or what to do first. Do NOT use to think through the project itself (that is office-hours) or to review a draft (pressure-test).
 metadata:
-  version: 1.2.0
+  version: 1.3.0
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -37,7 +37,7 @@ Build the folder name: `<netid>-<first>-<last>`, all lowercase, spaces and punct
 
 ### 3. Create the folder and prefill the draft
 
-Work out the current phase from the phase file in this skill (`phases/`). For the Opportunity Hypothesis phase, create:
+Work out the current phase: the highest-numbered file in `phases/` in this skill. Read it for the phase folder, the template, and what to prefill. If the student already has a folder in that phase, say so, don't overwrite anything, and skip to step 5. Earlier phase folders are never touched. For the Opportunity Hypothesis phase, for example, create:
 
 ```
 00-opportunity-hypothesis/<folder>/
@@ -84,6 +84,7 @@ In one short message:
 - Their brief, both lines quoted verbatim: the **Secular waves** line and the **Challenge** line.
 - The path: `/office-hours` to think it through (30 to 45 minutes, one question at a time). `/research` when they want evidence for or against something. `/draft` to turn their notes into the write-up, with gaps marked. `/pressure-test` for a cold review. `/submit` when done. In between, just talk; the AI reads their notes every time, so nothing needs re-explaining.
 - Their `notes.md` is written for them by every skill and conversation. It's the record of their AI use that the course reads; they don't have to maintain it.
+- If the phase file names a team deliverable, one line: the group tasks are done together with `/team`, one person typing during the team meeting.
 
 End with: *"Ready to start thinking? Type /office-hours."*
 
