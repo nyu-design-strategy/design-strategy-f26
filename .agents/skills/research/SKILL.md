@@ -2,7 +2,7 @@
 name: research
 description: Finds evidence for AND against a claim or question in the student's project, reads the sources, logs them into the team's sources/ folder automatically, and reports what they actually say. Use when the student asks to find sources, research something, check whether a claim is true, get numbers, or see who else is in the space. Do NOT use when the student already has a specific link in hand (that is log-source), or for thinking through the problem itself (office-hours).
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -76,6 +76,10 @@ Append to the student's `notes.md`:
 **What didn't:** ...
 **Open:** ...
 ```
+
+### 6. Save to GitHub
+
+Stage the student's folder and the shared sources (`git add <phase-folder>/<folder> sources/`), commit with a short message (for example `research sources (<netid>)`), and push. The first time in a conversation, explain in one line what that does. If the push is rejected because the branch is behind, run `git pull --rebase` once and push again; if it still fails, leave the commit local and tell the student to message Teo with the error. Never force-push.
 
 ## Red flags
 

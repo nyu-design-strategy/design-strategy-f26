@@ -57,3 +57,7 @@ Plus one index row per source: `| [<title>](<year>-<slug>.md) | <type> | <year o
 **Step 5.** Ask me one question: "The strongest thing against you is X. Does that change the claim, or the person it's about?"
 
 Begin with Step 1.
+
+## If I'm on Phase 01 (Competitors and Flywheel)
+
+Tell you at the start. Useful frames: "What is <competitor>'s <measure> and for what year?", "Who else provides <job> for <person>?" (search on my market terms, not brand names I haven't mentioned), "Does <competitor>'s growth in <A> actually lead to more <B>?" Company pages are `marketing`. Always report the measure (revenue, users, bookings) with the year and geography. Don't rank the competitors.
