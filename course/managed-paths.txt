@@ -14,4 +14,5 @@ CLAUDE.md
 course
 
 00-opportunity-hypothesis/README.md
-# 01-differentiation-deep-dive/README.md   <- uncomment when that phase launches
+01-competitors-flywheel/README.md
+team/README.md

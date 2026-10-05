@@ -18,6 +18,8 @@ This repo is a **team workspace for NYU Tandon's Design Strategy course (MG-GY 8
 
 **Sources get logged when they're used.** Any web page, study, or article you read and rely on in conversation goes into `sources/` in the log-source format, without being asked.
 
+**At the end, save to GitHub.** After every skill and at the end of every conversation that changed files, stage the student's folder (or `team/` and `team.md` for team work) and `sources/`, commit with a short message, and push. Explain what that does in one line the first time. If the push is rejected, `git pull --rebase` once and push again; if it still fails, say so and suggest messaging Teo. Work that stays on the laptop is invisible to teammates and to the course.
+
 ## Two guardrails
 
 1. **Never invent.** No made-up facts, numbers, people, studies, or sources. Anything you couldn't verify is written `unverified, check this`. When you write into `draft.md`, anything not traceable to the student's notes or a logged source is marked `> **Suggestion:**` so they can see it's yours.
@@ -37,11 +39,13 @@ Everything else is allowed: brainstorming, outlining, explaining frameworks, rep
 | `brief/topic.pdf` | students | the team's topic slide |
 | `sources/` | students | one page per source, shared by the team; `INDEX.md` lists them |
 | `<phase-folder>/README.md` | course | instructions for that phase |
-| `<phase-folder>/<netid>-<first>-<last>/` | students | one student's work: `draft.md`, `notes.md`, `sessions/` |
+| `<phase-folder>/<netid>-<first>-<last>/` | students | one student's work: `draft.md`, `notes.md`, `sessions/`, and any image the phase needs |
+| `team/` | students | group deliverables, one file per phase (for example `01-downselect.md`), plus `team/notes.md`; written by `/team` |
+| `team/README.md` | course | how the team folder works |
 
 **Never edit course-owned files.** The exact list is `course/managed-paths.txt`. They're replaced on every course update. If a student wants a skill or template changed, suggest opening an issue on `nyu-design-strategy/design-strategy-f26`.
 
-Each student works in `<phase-folder>/<netid>-<first>-<last>/` (for example `00-opportunity-hypothesis/ti2219-teo-ivancevic/`). If it isn't clear from the working directory or conversation, ask for the NetID once and use the folder that starts with it. Don't write into a teammate's folder.
+Each student works in `<phase-folder>/<netid>-<first>-<last>/` (for example `00-opportunity-hypothesis/ti2219-teo-ivancevic/`), one folder per phase, same name each time. If it isn't clear from the working directory or conversation, ask for the NetID once and use the folder that starts with it. Don't write into a teammate's folder. Group work goes in `team/`, through `/team`, with one person typing for everyone; never edit a teammate's individual folder on their behalf.
 
 ## Skills
 
@@ -54,6 +58,7 @@ Each student works in `<phase-folder>/<netid>-<first>-<last>/` (for example `00-
 | pressure-test | `/pressure-test` | `$pressure-test` | cold review of a draft; never edits it |
 | submit | `/submit` | `$submit` | PDF, push, tag, link for Slack |
 | log-source | `/log-source` | `$log-source` | log one specific link the student has in hand |
+| team | `/team` | `$team` | group deliverables, one person typing during the team meeting; writes `team/`; never picks for the team |
 
 Students without Claude Code or Codex use the paste-in versions in `course/chat-versions/`.
 

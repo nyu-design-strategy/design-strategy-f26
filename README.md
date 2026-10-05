@@ -13,7 +13,22 @@ Open this folder in Claude Code or Codex and talk to the AI the way you'd talk t
 - **It remembers.** Every conversation and every skill writes a dated entry into your `notes.md`, and the AI reads that file, your team's brief, and your team's sources at the start of each conversation. You never re-explain your project.
 - **It has two rules.** It never invents a fact or a source, and it never grades you. Anything it adds to your draft that didn't come from you or from a logged source is marked as a suggestion, so you always know what's yours.
 
-On top of that, five skills run the parts of the work that benefit from structure. Type them like commands (`/office-hours` in Claude Code, `$office-hours` in Codex).
+On top of that, eight skills run the parts of the work that benefit from structure. Type them like commands (`/office-hours` in Claude Code, `$office-hours` in Codex).
+
+## The skills
+
+| Skill | Use it when | What it does |
+|---|---|---|
+| `/start` | first time in the repo, and at the start of each new phase | asks your NetID and name, creates your folder for the phase, prefills what it can, saves it to GitHub |
+| `/office-hours` | you have a brief or an idea and no draft yet, or you're stuck | six questions, one at a time, tuned to the phase; writes your notes; ends with one real-world task |
+| `/research` | you want evidence for or against something you believe | searches both sides, reads what it finds, logs every source for the whole team |
+| `/log-source` | you already have one link, study, or number in hand | logs that one source and checks it supports your claim |
+| `/draft` | you have enough notes to write from | fills the phase template from your notes and sources, in your words, with gaps marked |
+| `/pressure-test` | you have a draft and want to know where it's weakest | cold read plus structural checks; the three questions that would change it most; never edits your draft |
+| `/team` | the group deliverables, during your team meeting | one person types, everyone talks; reads everyone's drafts, asks the team the questions, writes `team/`; never picks for you |
+| `/submit` | you're done, individually or as a team | PDF, saved to GitHub, frozen with a tag, link for Slack |
+
+Every skill saves your work to GitHub when it finishes, so your teammates and the course can see it. Each skill knows which phase you're in from your folder; the current phase's instructions are in that phase's `README.md`.
 
 ---
 
@@ -55,11 +70,16 @@ The course wants to see what *you* brought: something you knew that the AI didn'
 
 ```
 team.md                        your brief, members, decisions        YOURS
+team/                          group deliverables, team notes        YOURS
 sources/                       one page per source, shared           YOURS
 00-opportunity-hypothesis/
   <netid>-<first>-<last>/      draft.md, notes.md, sessions/         YOURS
+01-competitors-flywheel/
+  <netid>-<first>-<last>/      draft.md, notes.md, flywheel.png      YOURS
 course/                        templates, readings, changelog        COURSE
 ```
+
+Each phase has its own folder with a `README.md` saying what's due and how. Your folder name stays the same from phase to phase; `/start` makes the new one.
 
 Don't edit course-owned files; they're replaced on every update. Updates arrive as a pull request called **Update from course**; your team's repo lead merges it. Want a skill changed? Open an issue on `nyu-design-strategy/design-strategy-f26`. Good suggestions ship to the whole class.
 
