@@ -58,3 +58,7 @@ added_by: <my netid>
 **Step 8.** Output a one-line notes entry (`## YYYY-MM-DD · log-source`, source and claim) I can append to my `notes.md`.
 
 Begin with Step 1.
+
+## If I'm on Phase 01 (Competitors and Flywheel)
+
+Most of my sources will be size signals for competitors. Record the measure, year, and geography in **The number**; log a company's own page as `marketing`; use the year of the data in the filename; and in **Used for**, the phase is `01-competitors-flywheel`.

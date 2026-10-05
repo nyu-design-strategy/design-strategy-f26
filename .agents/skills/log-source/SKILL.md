@@ -2,7 +2,7 @@
 name: log-source
 description: Records one source (article, study, report, dataset, statistic) as a shared page in the team's sources/ folder and checks whether it actually supports the student's claim. Use when the student pastes a link, citation, number, or study, or says "log this", "add this source", "is this a good source". Also the format every other skill uses when it logs a source in the background. Do NOT use to go find sources (that is research).
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -112,6 +112,10 @@ Keep the table sorted by year of data, newest first. Create `sources/INDEX.md` w
 ### 8. Close
 
 In chat: name the file and restate the fit check in one line.
+
+### 9. Save to GitHub
+
+Stage the shared sources and the student's notes (`git add sources/ <phase-folder>/<folder>/notes.md`), commit with a short message (for example `log source (<netid>)`), and push. The first time in a conversation, explain in one line what that does. If the push is rejected because the branch is behind, run `git pull --rebase` once and push again; if it still fails, leave the commit local and tell the student to message Teo with the error. Never force-push.
 
 ## If the student asks you to find sources
 
