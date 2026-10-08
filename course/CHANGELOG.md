@@ -3,6 +3,7 @@
 Newest first. When you see a new entry here, or an "Update from course" pull request in your team repo, merge it (see the README, "Getting updates from the course").
 
 <!-- entries -->
+- **2026-10-07** · tensions v1.2.0: /tensions now outputs one sticky per competitor for Miro (paste as sticky notes, then drag), and can be run ahead of the meeting to pre-place with evidence.
 - **2026-10-07** · tensions v1.1.0: /tensions can now research each competitor and place it on your axes with a quote and a confidence level; say 'place them'.
 - **2026-10-07** · tensions v1.0.0: New: /tensions turns your competitor tables into candidate 2x2 axes for the differentiation exercise, with a block to paste into Miro.
 - **2026-10-05** · team v1.0.0: New: /team runs the group downselect and research plan during your meeting. One person types, everyone talks; it never picks for you.

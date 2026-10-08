@@ -2,7 +2,7 @@
 name: tensions
 description: Surfaces candidate differentiation tensions (2x2 axes) from the team's own competitor tables and carried-forward hypotheses, grouped by the four fits (market, model, product, channel), and ends with a pasteable block for Miro. Use when a student or team says "tensions", "differentiation", "2x2", "white space", "how are we different", "axes for the matrix", or types /tensions. Works solo or with one person typing for the team. Does NOT pick the axes or name the white space for them.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -82,22 +82,34 @@ Skip this step if the team doesn't ask for it or there are fewer than ten minute
 
 ### 6. The Miro block
 
-Output one fenced block the team can paste straight into a Miro sticky or text box, for each 2x2 they chose:
+Two blocks per 2x2, built so Miro turns them into draggable objects.
+
+**Block A, the frame.** One text box:
 
 ```
 2x2 · <hypothesis title>
 Horizontal: <Pole A> ← → <Pole B>   (<fit>)
 Vertical:   <Pole C> ← → <Pole D>   (<fit>)
-
-Placements (x, y, one-line reason):
-- <Competitor>: <left/right>, <top/bottom>. <reason from their table>
-- ...
-- OUR HYPOTHESIS: <left/right>, <top/bottom>. <reason>
-
-Empty quadrant(s): <which>, and the team's read on why nobody is there.
 ```
 
+**Block B, the stickies.** One line per competitor, plus one for the hypothesis. Tell the driver: *"Copy this block, click the Miro board, paste, and choose 'Paste as sticky notes' when Miro asks. Each line becomes one sticky. Drag them onto the 2x2; the suggested spot is in the text."*
+
+```
+Rover · →right 70% · ↑top 40% · books a sitter in advance; nobody obliged until booked
+24Petwatch · →right 80% · ↓bottom 80% · passive registry, tells whoever scans
+...
+OUR HYPOTHESIS · ←left 40% · ↑top 90% · arranged before, triggered after
+```
+
+Format per line: `<name> · <←left|→right> <0–100%> · <↑top|↓bottom> <0–100%> · <reason in under 12 words>`. Percentages are how far toward that pole, from the evidence tables if 5b ran, otherwise from the team's placements. Mark `guess` positions with `(?)` after the name.
+
+After the team has dragged things around, ask once: *"Read me the final positions, or paste a screenshot, and I'll record them as yours."* The final positions, not the suggested ones, go in the notes.
+
 Then ask once: *"Is the empty quadrant empty because nobody has tried, or because nobody wants it?"* Record the answer. That is the question the homework's two or three sentences have to answer.
+
+## Running it ahead of the meeting
+
+One teammate can run this alone before the team meets: pick the hypothesis, pick two provisional axes, say "place them" so the competitors get researched and placed with evidence, and save. The team then starts the meeting from the stickies and the evidence tables, drags, and overrules. Note in the entry that the axes were provisional and who set them.
 
 ### 7. Log and save
 

@@ -26,17 +26,7 @@ Steps:
 
 **Step 4b (if we say "place them" or "rank them").** If you can browse, open each competitor's site and, for each of our two axes, say which pole it sits nearer and how far, with a quote under 20 words and a confidence: clear, likely, or guess. Output one table per axis with competitors ordered from pole to pole: # | Competitor | Position | Evidence (quote) | Confidence. Then ask: "Move any of these? Your call on each." Our final positions win. If you can't browse, say so and ask us to paste what each competitor's site says.
 
-**Step 5.** For each 2x2 we chose, output one block we can paste into Miro:
-
-```
-2x2 · <hypothesis>
-Horizontal: <Pole A> ← → <Pole B> (<fit>)
-Vertical:   <Pole C> ← → <Pole D> (<fit>)
-Placements (x, y, one-line reason):
-- <Competitor>: left/right, top/bottom. <reason>
-- OUR HYPOTHESIS: left/right, top/bottom. <reason>
-Empty quadrant(s): <which>, and our read on why nobody is there.
-```
+**Step 5.** For each 2x2 we chose, output two blocks for Miro. Block A, one text box: the title, the horizontal axis (Pole A ← → Pole B, fit), the vertical axis (Pole C ← → Pole D, fit). Block B, one line per competitor plus one for our hypothesis, in this exact format so Miro makes each line a sticky note when we paste with "Paste as sticky notes": `<name> · <←left|→right> <0–100%> · <↑top|↓bottom> <0–100%> · <reason under 12 words>`. Mark guesses with `(?)`. Tell us to drag the stickies onto the 2x2, then ask us to read back the final positions and record those as ours.
 
 Then ask once: "Is the empty quadrant empty because nobody has tried, or because nobody wants it?"
 
