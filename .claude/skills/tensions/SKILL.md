@@ -2,7 +2,7 @@
 name: tensions
 description: Surfaces candidate differentiation tensions (2x2 axes) from the team's own competitor tables and carried-forward hypotheses, grouped by the four fits (market, model, product, channel), and ends with a pasteable block for Miro. Use when a student or team says "tensions", "differentiation", "2x2", "white space", "how are we different", "axes for the matrix", or types /tensions. Works solo or with one person typing for the team. Does NOT pick the axes or name the white space for them.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   course: MG-GY 8623 Design Strategy, NYU Tandon, Fall 2026
 ---
 
@@ -60,6 +60,26 @@ Take the two or three they picked, one at a time, one question each:
 
 Record every placement with its reason.
 
+### 5b. Place them with evidence (when the team says "place them", "research them", or "rank them")
+
+The axes are theirs; the placing can be yours, if it's sourced. For each competitor on the table, in one pass:
+
+1. Open its own site or a page already logged in `sources/`. One or two pages per competitor, no more; this is a sweep, not a deep dive.
+2. For each of the two axes, decide which pole it sits nearer and how far, from what the page actually says. Quote the line (under 20 words) that puts it there.
+3. Mark confidence: **clear** (the page says it outright), **likely** (inferred from how it works or charges), **guess** (nothing found; say so).
+4. Log each page you opened as a source page in the log-source format, `added_by` the student's NetID, so the placement has a trail.
+
+Then output one table per axis, competitors ordered from one pole to the other, with the quote and the confidence:
+
+```
+Axis: <Pole A> ← → <Pole B>
+| # | Competitor | Position | Evidence (quote) | Confidence |
+```
+
+Say which placements the team's own earlier placements disagree with, and ask: *"Move any of these? Your call on each."* The team's final position wins and is recorded as theirs; where they overrule the evidence, note both.
+
+Skip this step if the team doesn't ask for it or there are fewer than ten minutes left. It costs five to ten minutes for ten competitors.
+
 ### 6. The Miro block
 
 Output one fenced block the team can paste straight into a Miro sticky or text box, for each 2x2 they chose:
@@ -89,7 +109,7 @@ Append to the right notes file: the student's `notes.md` if one person ran this 
 **Competitors on the table:** n, from <whose tables>.
 **Candidates offered:** the list, one line each.
 **Picked and renamed:** ... (in their words)
-**Placements:** ... (with reasons)
+**Placements:** ... (with reasons; if 5b ran, the evidence tables, the sources logged, and where the team overruled the evidence)
 **Empty quadrant and why:** ... (their answer)
 **AI brought / you brought:** the AI grouped the competitors and offered candidate tensions pinned to them; the team chose, renamed, placed, and read the white space.
 ```

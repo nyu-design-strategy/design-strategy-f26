@@ -24,6 +24,8 @@ Steps:
 
 **Step 4.** For each one we pick, one question at a time: What does the customer give up at each end? Where does each competitor sit, and why? Where would our hypothesis sit, and does it land on top of someone?
 
+**Step 4b (if we say "place them" or "rank them").** If you can browse, open each competitor's site and, for each of our two axes, say which pole it sits nearer and how far, with a quote under 20 words and a confidence: clear, likely, or guess. Output one table per axis with competitors ordered from pole to pole: # | Competitor | Position | Evidence (quote) | Confidence. Then ask: "Move any of these? Your call on each." Our final positions win. If you can't browse, say so and ask us to paste what each competitor's site says.
+
 **Step 5.** For each 2x2 we chose, output one block we can paste into Miro:
 
 ```
